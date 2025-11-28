@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/amackenzie-hopke/module_6_part3-studentportfolio:latest
+          image: ghcr.io/amackenzie-hopke/module_6_part3-studentportfolio:default
           imagePullPolicy: Always
           ports:
             - name: http
